@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MoviWallet — Wallet Digital</title>
+  <meta name="description" content="MoviWallet: wallet digital con enfoque en seguridad, interoperabilidad y experiencia de usuario." />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="MoviWallet">
+        <span class="brand__logo">MW</span>
+        <span class="brand__text">
+          <strong>MoviWallet</strong>
+          <span>Wallet Digital</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav__link" href="#features">Features</a>
+        <a class="nav__link" href="#security">Seguridad</a>
+        <a class="nav__link" href="#screens">Screens</a>
+        <a class="nav__link" href="#faq">FAQ</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <a class="btn btn--ghost" href="#cta">Contactar</a>
+      </div>
+
+      <button class="burger" type="button" aria-label="Abrir menú" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile" id="mobileNav" aria-hidden="true">
+      <div class="mobile__inner container">
+        <a class="mobile__link" href="#features">Features</a>
+        <a class="mobile__link" href="#security">Seguridad</a>
+        <a class="mobile__link" href="#screens">Screens</a>
+        <a class="mobile__link" href="#faq">FAQ</a>
+        <div class="mobile__actions">
+          <a class="btn btn--ghost" href="#cta">Contactar</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="container hero">
+      <div class="hero__left">
+        <div class="pills">
+          <span class="pill">Interoperable</span>
+          <span class="pill">Segura</span>
+          <span class="pill pill--subtle">24–48h respuesta</span>
+        </div>
+
+        <h1>MoviWallet: tu wallet digital <span class="grad">rápida</span> y <span class="grad">segura</span>.</h1>
+        <p class="muted">
+            Gestiona tu dinero desde un solo lugar: envía, recibe y paga en segundos.
+            MoviWallet combina una experiencia simple con enfoque en seguridad, control de movimientos
+            e interoperabilidad para tu día a día.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#screens">Ver pantallas</a>
+          <a class="btn btn--ghost" href="#features">Ver features</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat__n">+6</div>
+            <div class="stat__t">Secciones</div>
+          </div>
+          <div class="stat">
+            <div class="stat__n">Glass</div>
+            <div class="stat__t">UI System</div>
+          </div>
+          <div class="stat">
+            <div class="stat__n">Shine</div>
+            <div class="stat__t">Hover</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="mock">
+          <div class="mock__top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="mock__title">MoviWallet App</span>
+          </div>
+          <div class="mock__body">
+            <div class="mock__card">
+              <div class="mock__kpi">
+                <span class="kpi__label">Saldo</span>
+                <span class="kpi__value">S/ 1,250.00</span>
+              </div>
+              <div class="mock__row">
+                <span class="chip">Enviar</span>
+                <span class="chip">Recibir</span>
+                <span class="chip">QR</span>
+              </div>
+            </div>
+
+            <div class="mock__list">
+              <div class="txn">
+                <span class="txn__tag">Transferencia</span>
+                <span class="txn__desc">Ahorro • Hoy</span>
+                <span class="txn__amt">- S/ 35.00</span>
+              </div>
+              <div class="txn">
+                <span class="txn__tag">Ingreso</span>
+                <span class="txn__desc">Sueldo • Ayer</span>
+                <span class="txn__amt plus">+ S/ 900.00</span>
+              </div>
+              <div class="txn">
+                <span class="txn__tag">Pago</span>
+                <span class="txn__desc">Servicio • 2d</span>
+                <span class="txn__amt">- S/ 12.50</span>
+              </div>
+            </div>
+
+            <div class="hint muted small">*Vista previa de la interfaz (demo visual).</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="container section" id="features">
+      <div class="section__head">
+        <h2>Features principales</h2>
+        <p class="muted">
+            Funcionalidades pensadas para moverte rápido: transferencias, pagos y control total de tus movimientos.
+        </p>
+
+      </div>
+
+      <div class="grid3">
+        <article class="card shine">
+          <div class="card__icon">⚡</div>
+          <h3>Pagos rápidos</h3>
+          <p class="muted">
+                Envía dinero y realiza pagos con un flujo claro: menos pasos, más velocidad y confirmaciones al instante.
+          </p>
+
+          <ul>
+            <li>Acciones rápidas</li>
+            <li>Validaciones claras</li>
+            <li>Feedback inmediato</li>
+          </ul>
+        </article>
+
+        <article class="card shine">
+          <div class="card__icon">🔒</div>
+          <h3>Seguridad primero</h3>
+          <p class="muted">
+                Protección desde el diseño: validaciones, controles y mensajes claros para evitar errores y reforzar confianza.
+          </p>
+          <ul>
+            <li>Roles / permisos</li>
+            <li>Protección de sesiones</li>
+            <li>Buenas prácticas UI</li>
+          </ul>
+        </article>
+
+        <article class="card shine">
+          <div class="card__icon">📊</div>
+          <h3>Historial y control</h3>
+          <p class="muted">
+                Visualiza tu historial, entiende tus gastos y revisa cada operación con detalle y trazabilidad.
+          </p>
+
+          <ul>
+            <li>Movimientos</li>
+            <li>Filtros</li>
+            <li>Resumen mensual</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECURITY -->
+    <section class="container section" id="security">
+      <div class="section__head">
+        <h2>Seguridad & prácticas</h2>
+        <p class="muted">Tu seguridad es prioridad. Estas son las prácticas clave que guían el diseño e implementación de MoviWallet.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card shine">
+          <h3>Checklist técnico</h3>
+          <div class="tags">
+            <span class="tag">JWT</span>
+            <span class="tag">Roles</span>
+            <span class="tag">Validaciones</span>
+            <span class="tag">Logs</span>
+            <span class="tag">HTTPS</span>
+          </div>
+          <p class="muted">Estas prácticas se aplican desde el diseño hasta la implementación para mantener una experiencia confiable y consistente.</p>
+        </div>
+
+        <div class="card shine">
+          <h3>UX de seguridad</h3>
+          <ul>
+            <li>Errores humanos: mensajes claros y no invasivos.</li>
+            <li>Prevención: confirmaciones en acciones sensibles.</li>
+            <li>Confianza: estados, loaders y feedback consistente.</li>
+          </ul>
+          <p class="muted small">MoviWallet busca que la seguridad se sienta natural: clara, predecible y sin fricción.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENS -->
+    <section class="container section" id="screens">
+      <div class="section__head">
+        <h2>Pantallas</h2>
+        <p class="muted">Explora algunas pantallas clave del flujo: inicio, movimientos, transferencias y perfil.</p>
+      </div>
+
+      <div class="grid4">
+        <!-- HOME -->
+<button class="shot shine"
+  data-title="Home"
+  data-src="./assets/Home_MoviWallet.jpeg"
+  style="--shot: url('./assets/Home_MoviWallet.jpeg');"
+  type="button">
+  <div class="shot__thumb"></div>
+  <div class="shot__meta">
+    <span>Home</span>
+    <span class="muted">Balance + acciones</span>
+  </div>
+</button>
+
+<!-- WALLET -->
+<button class="shot shine"
+  data-title="Wallet"
+  data-src="./assets/Wallet_MoviWallet.jpeg"
+  style="--shot: url('./assets/Wallet_MoviWallet.jpeg');"
+  type="button">
+  <div class="shot__thumb"></div>
+  <div class="shot__meta">
+    <span>Wallet</span>
+    <span class="muted">Movimientos</span>
+  </div>
+</button>
+
+<!-- TRANSFER -->
+<button class="shot shine"
+  data-title="Transfer"
+  data-src="./assets/Transfer_MoviWallet.jpeg"
+  style="--shot: url('./assets/Transfer_MoviWallet.jpeg');"
+  type="button">
+  <div class="shot__thumb"></div>
+  <div class="shot__meta">
+    <span>Transfer</span>
+    <span class="muted">Formulario</span>
+  </div>
+</button>
+
+<!-- PROFILE -->
+<button class="shot shine"
+  data-title="Profile"
+  data-src="./assets/Profile_MoviWallet.jpeg"
+  style="--shot: url('./assets/Profile_MoviWallet.jpeg');"
+  type="button">
+  <div class="shot__thumb"></div>
+  <div class="shot__meta">
+    <span>Profile</span>
+    <span class="muted">Ajustes</span>
+  </div>
+</button>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="container section" id="faq">
+      <div class="section__head">
+        <h2>FAQ</h2>
+        <p class="muted">Preguntas frecuentes sobre el enfoque, funcionalidades y la experiencia de MoviWallet.</p>
+      </div>
+
+      <div class="faq">
+        <details class="qa shine">
+          <summary>¿Qué es MoviWallet?</summary>
+          <p class="muted">MoviWallet es una wallet digital enfocada en pagos rápidos, control de movimientos y una experiencia clara para el usuario.</p>
+        </details>
+
+        <details class="qa shine">
+          <summary>¿Esto tiene backend?</summary>
+          <p class="muted">La plataforma se diseña para integrarse con servicios y APIs. Esta versión muestra la experiencia y el flujo de uso.</p>
+        </details>
+
+        <details class="qa shine">
+          <summary>¿Qué tecnologías usaste aquí?</summary>
+          <p class="muted">Interfaz responsive con componentes visuales, animaciones y una experiencia fluida en desktop y mobile.</p>
+        </details>
+
+        <details class="qa shine">
+          <summary>¿Cómo lo publico?</summary>
+          <p class="muted">Puedes ver la demo online desde un enlace público y acceder al repositorio para revisar el código y la estructura.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="container section" id="cta">
+      <div class="cta shine">
+        <div class="cta__text">
+          <h2>¿Te interesa ver más?</h2>
+          <p class="muted">¿Quieres una demo o colaborar? Escríbeme y coordinamos. También puedo compartir avances, repositorio y próximas mejoras.</p>
+        </div>
+        <div class="cta__actions icons">
+          <a class="iconBtn shine" href="https://www.linkedin.com/in/robbie-dulanto/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn">
+           <!-- LinkedIn -->
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 23.5h4V7.98h-4V23.5zM8.5 7.98h3.83v2.12h.05c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.78 2.65 4.78 6.1v9.36h-4v-8.3c0-1.98-.03-4.52-2.75-4.52-2.75 0-3.17 2.15-3.17 4.38v8.44h-4V7.98z"/>
+            </svg>
+         </a>
+
+  <a class="iconBtn shine" href="mailto:robbiedulantot@gmail.com"
+     aria-label="Email" title="Email">
+    <!-- Email -->
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/>
+    </svg>
+  </a>
+
+  <a class="iconBtn shine" href="https://github.com/Bobovro" target="_blank" rel="noreferrer"
+     aria-label="GitHub" title="GitHub">
+    <!-- GitHub -->
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 .5C5.73.5.75 5.62.75 12c0 5.1 3.29 9.43 7.86 10.96.58.11.79-.25.79-.56v-2.1c-3.2.71-3.87-1.58-3.87-1.58-.52-1.35-1.27-1.71-1.27-1.71-1.04-.73.08-.72.08-.72 1.15.08 1.75 1.2 1.75 1.2 1.02 1.78 2.68 1.27 3.33.97.1-.76.4-1.27.72-1.56-2.55-.3-5.23-1.31-5.23-5.83 0-1.29.45-2.35 1.19-3.18-.12-.3-.52-1.52.11-3.17 0 0 .97-.32 3.18 1.21a10.7 10.7 0 0 1 5.8 0c2.21-1.53 3.18-1.21 3.18-1.21.63 1.65.23 2.87.11 3.17.74.83 1.19 1.89 1.19 3.18 0 4.53-2.68 5.53-5.24 5.83.41.36.78 1.07.78 2.16v3.2c0 .31.21.68.8.56A11.52 11.52 0 0 0 23.25 12C23.25 5.62 18.27.5 12 .5z"/>
+    </svg>
+  </a>
+</div>
+
+      </div>
+    </section>
+
+    <footer class="container foot">
+      <p class="muted small">© <span id="year"></span> MoviWallet. Interfaz moderna, fluida y enfocada en confianza ✨</p>
+    </footer>
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__backdrop" data-close="1"></div>
+    <div class="lightbox__panel">
+      <div class="lightbox__top">
+        <strong id="lbTitle">Pantalla</strong>
+        <button class="x" type="button" data-close="1" aria-label="Cerrar">✕</button>
+      </div>
+
+      <div class="lightbox__content">
+        <img id="lbImg" alt="Screenshot" />
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
