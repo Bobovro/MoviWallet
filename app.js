@@ -18,7 +18,6 @@ if (burger && mobile) {
   });
 }
 
-// Lightbox simple (si la imagen no existe, igual abre con placeholder)
 const lb = document.getElementById('lightbox');
 const lbImg = document.getElementById('lbImg');
 const lbTitle = document.getElementById('lbTitle');
