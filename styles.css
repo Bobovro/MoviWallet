@@ -399,7 +399,6 @@ h1{
   font-size: 12px;
 }
 
-
 .faq{ display:grid; gap: 15px; }
 .qa{
   border-radius: 18px;
@@ -427,17 +426,16 @@ h1{
 }
 .cta__actions{
   display: flex;
-  align-items: center;   /* 👈 CLAVE */
+  align-items: center;   
   gap: 12px;
 }
-/* CTA icons */
+
 .cta__actions.icons{
   display: flex;
-  flex-direction: row;   /* 👈 columna */
-  align-items: flex-end;    /* 👈 pegados a la derecha */
+  flex-direction: row;   
+  align-items: flex-end;    
   gap: 10px;
 }
-
 
 .iconBtn{
   width: 42px;
@@ -486,8 +484,6 @@ h1{
   text-align: center;
 }
 
-/* ===== LIGHTBOX: scroll con rueda dentro del modal ===== */
-
 .lightbox{
   position: fixed;
   inset: 0;
@@ -504,7 +500,6 @@ h1{
   backdrop-filter: blur(6px);
 }
 
-/* Panel centrado */
 .lightbox__panel{
   position: relative;
   width: min(980px, calc(100% - 28px));
@@ -513,12 +508,9 @@ h1{
   background: rgba(17,24,39,.92);
   border: 1px solid rgba(255,255,255,.12);
   box-shadow: 0 30px 90px rgba(0,0,0,.55);
-
-  /* CLAVE: que el panel NO haga scroll, el scroll lo hace el content */
   overflow: hidden;
 }
 
-/* Barra superior fija */
 .lightbox__top{
   display:flex;
   align-items:center;
@@ -527,13 +519,10 @@ h1{
   border-bottom: 1px solid rgba(255, 255, 255, 0.062);
 }
 
-/* ✅ AQUÍ VA EL SCROLL */
 .lightbox__content{
-  max-height: calc(100vh - 120px); /* evita que salga de la pantalla */
-  overflow: auto;                 /* ✅ rueda aquí */
+  max-height: calc(100vh - 120px); 
+  overflow: auto;                 
   padding: 14px;
-
-  /* Mejora: hace que el scroll “se quede” dentro y no pase al body */
   overscroll-behavior: contain;
 }
 
@@ -546,7 +535,6 @@ h1{
   border: 1px solid rgba(255,255,255,.10);
 }
 
-/* Responsive */
 @media (max-width: 980px){
   .nav, .topbar__actions{ display:none; }
   .burger{ display:block; }
