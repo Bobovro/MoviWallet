@@ -526,7 +526,6 @@ h1{
   overscroll-behavior: contain;
 }
 
-/* Imagen */
 .lightbox__content img{
   width: 100%;
   height: auto;
